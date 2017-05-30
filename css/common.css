@@ -1,3 +1,42 @@
 /*
  * Estilos reutilizables
  */
+ .mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.link {
+    /*Se le aplica un font-weight para convertir en bold al texto*/
+    font-weight: 700;
+    /*Se le agrega padding para agregar un espacio entre los textos*/
+    padding: 21px;
+    /*crea cajas que son de bloque y en línea de forma simultanea*/
+    display: inline-block;
+    color: white;
+}
+
+
+
+header {
+    position: fixed;
+    background: #0B0B61;
+    width: 100%;
+    top: 0;
+}
+
+.menu {
+    padding: 14px 70px;
+    overflow: auto;
+    text-align: right;
+}
+a:hover { 
+    background-color: blue;
+}

@@ -1,3 +1,37 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;/*Hacer un reset de todos los elementos*/
+}
+
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    /* Establece la fuente de Google aquí */
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.71429;
+    background-color: #fff;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    color: #373B47;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E95853;
+}
