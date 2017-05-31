@@ -56,3 +56,34 @@ a:hover {
     font-weight: 700;
     font-size: 15px;
 }
+
+
+/*Caja 1*/
+
+.box-one img {
+    padding: 24px;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+
+.box-one p {
+    color: white;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700px;
+}
+
+
+/*Caja 2 Fotografias*/
+
+.img-container p {
+    color: black;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700px;
+    padding: 3%;
+}
+
+.img-container {
+    background: white;
+}
