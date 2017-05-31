@@ -1,7 +1,8 @@
 /*
  * Estilos reutilizables
  */
- .mb-0 {
+
+.mb-0 {
     margin-bottom: 0;
 }
 
@@ -13,6 +14,9 @@
     text-transform: uppercase;
 }
 
+
+/* HEADER*/
+
 .link {
     /*Se le aplica un font-weight para convertir en bold al texto*/
     font-weight: 700;
@@ -21,13 +25,12 @@
     /*crea cajas que son de bloque y en línea de forma simultanea*/
     display: inline-block;
     color: white;
+    text-decoration: none;
 }
-
-
 
 header {
     position: fixed;
-    background: #0B0B61;
+    background: #2c3e50;
     width: 100%;
     top: 0;
 }
@@ -35,8 +38,21 @@ header {
 .menu {
     padding: 14px 70px;
     overflow: auto;
-    text-align: right;
 }
-a:hover { 
-    background-color: blue;
+
+a:hover {
+    background-color: #18bc9c;
+}
+
+.menu .left {
+    float: left;
+    /*Se le aplica un font-weight para convertir en bold al texto*/
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.menu .right {
+    float: right;
+    font-weight: 700;
+    font-size: 15px;
 }

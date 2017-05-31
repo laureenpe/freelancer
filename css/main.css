@@ -1,10 +1,12 @@
 /*
  * Estilos de tu proyecto
  */
- * {
+
+* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;/*Hacer un reset de todos los elementos*/
+    box-sizing: border-box;
+    /*Hacer un reset de todos los elementos*/
 }
 
 *:before,
@@ -28,7 +30,7 @@ img {
 }
 
 a {
-    color: #373B47;
+    color: #2c3e50;
     text-decoration: none;
 }
 
