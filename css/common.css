@@ -76,7 +76,7 @@ a:hover {
 
 /*Caja 2 Fotografias*/
 
-.img-container p {
+.container p {
     color: black;
     text-align: center;
     font-size: 38px;
@@ -84,6 +84,14 @@ a:hover {
     padding: 3%;
 }
 
-.img-container {
+.container {
     background: white;
+}
+
+img {
+    vertical-align: middle;
+}
+/*LInea abajo del título*/
+.underline{
+    padding: 20px;
 }
