@@ -6,8 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Khula|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
     <link href="css/common.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -34,30 +37,37 @@
             <p _______________________</p>
         </div>
     </section>
-    <section class="container ">
+    <section class="container  ">
         <p>PORTFOLIO</p>
-        <div class="row">
-            <div class="col-4">
+        <div class="row ">
+            <div class="col-4 ">
                 <img src="assets/images/portfolio/cabin.png" class="img-responsive" alt="imagen 1">
             </div>
-            <div class="col-4">
+            <div class="col-4 ">
                 <img src="assets/images/portfolio/cake.png" class="img-responsive" alt="imagen 2">
             </div>
-            <div class="col-4">
+            <div class="col-4 ">
                 <img src="assets/images/portfolio/circus.png" class="img-responsive" alt="imagen 2">
             </div>
 
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 ">
                     <img src="assets/images/portfolio/game.png" class="img-responsive" alt="imagen 1">
                 </div>
-                <div class="col-4">
+                <div class="col-4 box-services">
                     <img src="assets/images/portfolio/safe.png" class="img-responsive" alt="imagen 2">
                 </div>
-                <div class="col-4">
+                <div class="col-4 ">
                     <img src="assets/images/portfolio/submarine.png" class="img-responsive" alt="imagen 2">
                 </div>
             </div>
+
+            <section>
+                <div id="box-services-modal" class="hide">
+                    <!-- Aca va la info dinamica con JS -->
+                </div>
+            </section>
+
             <!--about section-->
 
             <section class="about">
@@ -90,25 +100,48 @@
                     <div class="input-box">
                         <input type="text" id="input-message" class="form-control" placeholder="Message">
                     </div>
-                    <button class="btn btn-lg btn-primary btn-block submit-btn" type="submit">Send</button>
+                    <button class="btn" type="submit">Send</button>
                 </form>
         </div>
         </section>
-        <!--
-            <footer>
-                <h4>LOCATION</h4>
-                <p>3481 Melrose Place</p>
-                <p>Beverly Hills, CA 90210</p>
-                <h4>AROUND THE WEB</h4>
-                <h4>ABOUT FREELANCER</h4>
-                <p>Freelance is a free to use, open source Bootstrap theme created by <a href="">Start Bootstrap</a>.</p>
+        <footer>
 
+            <div class="container ">
+                <div class="row">
+                    <div class="col-4 ">
+                        <h1>LOCATION</h1>
+                        <address>
+                        3481 Melrose Place
+                        </address>
+                        <address>
+                        Beverly Hills, CA 90210
+                        </address>
+                    </div>
 
-                <p>Copyright © Your Website 2016</p>
-        </div>
-        </div>
-        </div>
-        </footer> -->
+                    <div class="row">
+                        <div class="col-4">
+                            <h1>AROUND THE WEB</h1>
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <i class="fa fa-google-plus-official" aria-hidden="true"></i>
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <i class="fa fa-superpowers" aria-hidden="true"></i>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <h1>ABOUT FREELANCER</h1>
+                                <h4>Freelance is a free to use, open source Bootstrap theme created by
+                                    <a href="">Start Bootstrap</a>.</h4>
+                            </div>
+
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12">
+                                        © Copyright Your Website 2016
+                                    </div>
+                                </div>
+                            </div>
+        </footer>
 </body>
 
 </html>
