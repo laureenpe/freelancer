@@ -90,6 +90,10 @@ a:hover {
     font-weight: 700;
 }
 
+.container hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
 .row:before,
 .row:after {
     content: " ";
@@ -130,16 +134,84 @@ a:hover {
 
 .about {
     background-color: #18bc9c;
+    padding: 24px 12px;
 }
 
 .about p {
     font-size: 20px;
 }
 
-.text-one p {
+.text-one {
     float: right;
 }
 
-.text-two p {
+.text-two {
     float: left;
+}
+
+.button {
+    background-color: white;
+}
+
+.about h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+/*CONTACT SECTION*/
+
+
+/*CONTACT SECTION*/
+
+.contact h1 {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.form-container {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 60%;
+    height: 50px;
+    font-size: 16px;
+}
+
+.input-message {
+    height: 100px;
+}
+
+
+/*Last*/
+
+button {
+    background-color: #18bc9c;
+    /* Green */
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 40%;
+}
+
+
+/*footer*/
+
+footer p {
+    font-size: 10px;
 }
