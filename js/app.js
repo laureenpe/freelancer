@@ -1,8 +1,11 @@
+/*No esta funcionando*/
+document.getElementById("button").addEventListener("click", validateForm); //para interactuar los listeners
 function validateForm() {
     /* Escribe tú código aquí */
+
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
-    var number = document.getElementById('number').value;
+    var phone = document.getElementById('number').value;
     var message = document.getElementById('message').value;
     var validateEmail = /\w+@\w+\.+[a-z]/;
 
@@ -13,10 +16,12 @@ function validateForm() {
     } else if (!validateEmail.test(email)) {
         alert("Debe ingresar un correo electrónico válido");
         return false;
-    } else if (number.length == 11 && number.substr(0, 2) == "56" && number.substr(2, 1) == "9") { // si tamaño de telefono es = 11 y telefono desde la posicion 0(que es 5) cuenta 2 caracteres(que son 56) y telefono desde la posicion 2 (que es 9 (5 es pos0, 6 es pos1, 9 es pos2 )) cuenta 1 caracter
+    } else if (phone.length == 11 && phone.substr(0, 2) == "56" && phone.substr(2, 1) == "9") { // si tamaño de telefono es = 11 y telefono desde la posicion 0(que es 5) cuenta 2 caracteres(que son 56) y telefono desde la posicion 2 (que es 9 (5 es pos0, 6 es pos1, 9 es pos2 )) cuenta 1 caracter
         return true;
-    }
 
+    }
+    console.log(phone);
+    validateForm();
 
 
 
