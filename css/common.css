@@ -126,6 +126,11 @@ a:hover {
     width: 100%;
 }
 
+.col-6 {
+    /*(6/12)*100*/
+    width: 50%;
+}
+
 
 /*para obligarla a q la imagen se mantenga dentro del grid - esto ya esta arriba en otro ejercicio*/
 
@@ -135,7 +140,7 @@ a:hover {
 }
 
 
-/* ABOUT SECTION*/
+/* ABOUT */
 
 .about {
     background-color: #18bc9c;
@@ -147,11 +152,17 @@ a:hover {
 }
 
 .text-one {
-    text-align: right;
+    color: white;
+    font-weight: 700;
+    padding-right: 10%;
+    text-align: justify;
 }
 
 .text-two {
-    float: left;
+    color: white;
+    font-weight: 700;
+    padding-right: 7%;
+    text-align: justify;
 }
 
 .button {
