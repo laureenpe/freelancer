@@ -13,7 +13,7 @@ function validateForm() {
     } else if (!validateEmail.test(email)) {
         alert("Debe ingresar un correo electrónico válido");
         return false;
-    } else if (number.length == 11 && telefono.substr(0, 2) == "56" && telefono.substr(2, 1) == "9") { // si tamaño de telefono es = 11 y telefono desde la posicion 0(que es 5) cuenta 2 caracteres(que son 56) y telefono desde la posicion 2 (que es 9 (5 es pos0, 6 es pos1, 9 es pos2 )) cuenta 1 caracter
+    } else if (number.length == 11 && number.substr(0, 2) == "56" && number.substr(2, 1) == "9") { // si tamaño de telefono es = 11 y telefono desde la posicion 0(que es 5) cuenta 2 caracteres(que son 56) y telefono desde la posicion 2 (que es 9 (5 es pos0, 6 es pos1, 9 es pos2 )) cuenta 1 caracter
         return true;
     }
 
