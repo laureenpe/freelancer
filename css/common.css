@@ -70,28 +70,76 @@ a:hover {
     color: white;
     text-align: center;
     font-size: 38px;
-    font-weight: 700px;
+    font-weight: 700;
 }
 
 
-/*Caja 2 Fotografias*/
+/*LAYOUT CAJA FOTOGRAFIAS*/
+
+.container {
+    /*Se ve hasta 1200 pixeles*/
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
 
 .container p {
     color: black;
     text-align: center;
     font-size: 38px;
-    font-weight: 700px;
-    padding: 3%;
+    font-weight: 700;
 }
 
-.container {
-    background: white;
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
 }
 
-img {
-    vertical-align: middle;
+.row:after {
+    clear: both;
 }
-/*LInea abajo del título*/
-.underline{
-    padding: 20px;
+
+
+/*Comienzo a hacer las columnas*/
+
+
+/*Selector de muchas cosas, todo lo que comience con col- va a tener estos valores:*/
+
+[class*="col-"] {
+    min-height: 7px;
+    float: left;
+    padding: 12px;
+}
+
+.col-4 {
+    /*(4/12)*100*/
+    width: 33.333333%;
+}
+
+
+/*para obligarla a q la imagen se mantenga dentro del grid - esto ya esta arriba en otro ejercicio*/
+
+.img-responsive {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+/* ABOUT SECTION*/
+
+.about {
+    background-color: #18bc9c;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.text-one p {
+    float: right;
+}
+
+.text-two p {
+    float: left;
 }
